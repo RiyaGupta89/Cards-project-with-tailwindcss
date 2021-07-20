@@ -1,0 +1,16 @@
+{
+  "name": "moderncss",
+  "version": "1.0.0",
+  "description": "Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tailwind": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "author": "Riya Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "tailwindcss": "^2.2.4"
+  }
+}
